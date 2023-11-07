@@ -1,0 +1,47 @@
+#tasklist-page .search-container{
+    border: 1px red solid;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    
+
+}
+#tasklist-page .search-container input{
+    border: none;
+    flex-grow: 2;
+    height: auto;
+}
+#tasklist-page  .search-container input:focus{
+    
+    outline: none;
+    
+}
+#tasklist-page  .search-container button{
+    background-color:#2E2D2D;
+    border: 1px red solid;
+    border-radius: 20px;
+    
+}
+.list-group-task{
+    border: 1px #A91919 solid ;
+    font-size: 25px; 
+    font-weight: 400;
+    line-height: normal;
+    font-style: normal; 
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border-radius: 15px;
+    display: block;
+    min-height:  81px;;
+    height: auto;
+    cursor: pointer;
+    word-break: break-all;
+}
+.list-group-task:hover{
+    background-color: rgb(189, 133, 133);
+}
+.list-group-task.active {
+    background-color:rgb(134, 66, 66)
+}
